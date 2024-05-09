@@ -4,4 +4,4 @@ COPY ./default.conf /etc/nginx/conf.d/default.conf
 
 COPY ./build /var/www/frontend
 
-EXPOSE 80:80
+EXPOSE 80
