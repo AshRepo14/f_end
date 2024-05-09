@@ -7,14 +7,14 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/AshRepo14/f_end.git'
             }
         }
-        stage('Setup Environment') {
-            steps {
-              sh '''
-                npm install
-                npm run build
-               '''
-            }
-        }
+        // stage('Setup Environment') {
+        //     steps {
+        //       sh '''
+        //         npm install
+        //         npm run build
+        //        '''
+        //     }
+        // }
         // stage('Test') {
         //     steps {
         //         sh 'npm test'
